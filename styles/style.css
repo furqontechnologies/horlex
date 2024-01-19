@@ -100,8 +100,9 @@ main {
 
 
 .product img {
-  max-width: 300px;
-  height: auto;
+  max-width: 500px;
+  height: 400px
+  width: 250px;
   cursor: pointer;
 }
 
