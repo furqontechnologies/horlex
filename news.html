@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News from Horlex Technologies</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+   
+
+        <header>
+            <h1>Horlex Technologies</h1>
+            <p>Your Technology Solutions Partner</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="news.html" class="active">News</a></li>
+                </ul>
+            </nav>
+            <button id="notification-bar" onclick="viewCart()">
+                <p id="cart-notification"></p>
+            </button>
+            <button id="checkout-btn" onclick="checkout()">Checkout</button>
+        </header>
+        <main>
+        
+
+            <section id="news">
+                <h2>Latest News <div class="fire">&#128293;</div></h2>
+            
+<!-- Article 0: Welcome to Holex Technologies News Page -->
+<article>
+    <h2>Welcome to Horlex Technologies News Hub</h2>
+    <small>Published on: March 10, 2024</small>
+    
+    <p>At Horlex Technologies, we are thrilled to welcome you to our News Hub, your go-to source for the latest in technology, innovation, and all things Horlex. This space is designed to keep you informed, inspired, and connected with the ever-evolving world of technology.</p>
+    
+    <p>As we embark on this exciting journey together, we invite you to explore our diverse range of articles covering breakthroughs, product launches, company achievements, upcoming events, and valuable insights into the tech industry. Whether you are a tech enthusiast, a professional, or simply curious about the latest trends, there's something here for everyone.</p>
+    <div class="additional-content">
+
+        <p>Our team is dedicated to bringing you engaging and informative content that not only highlights the cutting-edge solutions we offer but also provides a deeper understanding of the impact of technology on our lives. Expect in-depth analyses, exclusive interviews, and captivating stories that unfold the narrative of Horlex Technologies.</p>
+    
+        <p>Feel free to dive into our articles, share your thoughts, and join the conversation. We believe in the power of knowledge and the strength of our community. Your presence here is an integral part of what makes Horlex Technologies special.</p>
+        
+        <p>Stay tuned for regular updates as we share our journey, achievements, and the latest happenings in the tech world. Thank you for being a part of the Horlex family. Together, let's explore, innovate, and shape the future!</p>
+        
+    </div>
+    <a href="#" class="read-more" onclick="toggleReadMore(this)">Read More</a>
+    <p>Best regards,</p>
+    <p>The Horlex Technologies Team</p>
+</article>
+
+
+            
+                <!-- Add more articles as needed -->
+            
+            </section>
+            
+
+        <!-- Add more sections or content as needed -->
+
+        <!-- Right Footer -->
+        <footer class="right-footer">
+            <!-- Footer content -->
+        </footer>
+
+    </main>
+
+    
+
+    <div id="modal-container">
+        <!-- Other modals and content -->
+
+        <!-- Cart modal content -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeCartModal()">X</span>
+                <h2>Your Cart</h2>
+                <div id="cart-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

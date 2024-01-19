@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holex Technology - Shop</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <h1>Holex Technology</h1>
+            <p>Your Technology Solutions Partner</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+             
+            </nav>
+
+            <div class="cart-checkout"></div>
+            <button id="notification-bar" onclick="viewCart()">
+                       
+                <p id="cart-notification"></p>
+            </button>
+              <button id="checkout-btn" onclick="checkout()">checkout</button>
+      
+        </header>
+    </header>
+
+    
+    <main>
+        <section id="products">
+               <div class="grid">
+             
+                <div class="product" data-name="Brand New iPhone 15 Pro Max 256GB" data-price="1700000">
+                    <h2>Brand New iPhone 15 Pro Max 256GB</h2>
+                    <p class="price">₦1,700,000</p>
+                    <img src="holexpicture/iphone_15_pro_max_256gb_blue_titanium.jpg" alt="iPhone 15 Pro Max 256GB - Blue Titanium">
+                    <button onclick="addToCart('Brand New iPhone 15 Pro Max 256GB', 1700000)">Add to Cart</button>
+                </div>
+                
+                <div class="product" data-name="Brand New iPhone 15 128GB" data-price="1020000">
+                    <h2>Brand New iPhone 15 128GB</h2>
+                    <p class="price">₦1,020,000</p>
+                    <img src="holexpicture/iphone_15_pink_yellow_blue_black.jpg" alt="iPhone 15 128GB - Pink, Yellow, Blue & Black">
+                    <button onclick="addToCart('Brand New iPhone 15 128GB', 1020000)">Add to Cart</button>
+                </div>
+               
+                
+                
+                
+                
+              
+
+               </div>
+
+
+
+
+               <div class="grid">
+             
+
+                
+
+                <div class="product" data-name="iPhone 11 64GB" data-price="310000">
+                    <h2>iPhone 11 64GB</h2>
+                    <p class="price">₦310,000</p>
+                    <img src="holexpicture/iphone_11_black_red.jpg" alt="iPhone 11 64GB - Black & Red">
+                    <button onclick="addToCart('iPhone 11 64GB', 310000)">Add to Cart</button>
+                </div>
+                
+                <div class="product" data-name="iPhone 11 Pro Max 64GB" data-price="450000">
+                    <h2>iPhone 11 Pro Max 64GB</h2>
+                    <p class="price">₦450,000</p>
+                    <img src="holexpicture/iphone_11_pro_max.jpg" alt="iPhone 11 Pro Max 64GB">
+                    <button onclick="addToCart('iPhone 11 Pro Max 64GB', 450000)">Add to Cart</button>
+                </div>
+
+               </div>
+
+
+
+               <div class="grid">
+             
+
+                <div class="product" data-name="Apple Power Beats Pro" data-price="220000">
+                    <h2>Apple Power Beats Pro</h2>
+                    <p class="price">₦220,000</p>
+                    
+                    <video width="400" height="200" controls>
+                        <source src="holexpicture\apple_power_beats_pro.mp4" alt="Apple Power Beats Pro">
+                        >
+                        
+                    </video>
+
+                    <button onclick="addToCart('Apple Power Beats Pro', 220000)">Add to Cart</button>
+                </div>
+
+                
+
+              
+
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <div class="product" data-name="iPhone 15 Pro Max 256GB" data-price="1700000">
+                <h2>iPhone 15 Pro Max 256GB</h2>
+                <p class="price">₦1,700,000</p>
+                <img src="holexpicture/iphone_15_pro_max_256gb_blue_titanium.jpg" alt="iPhone 15 Pro Max 256GB - Blue Titanium">
+                <button onclick="addToCart('iPhone 15 Pro Max 256GB', 1700000)">Add to Cart</button>
+            </div>
+            
+            <div class="product" data-name="iPhone 15 128GB" data-price="1020000">
+                <h2>iPhone 15 128GB</h2>
+                <p class="price">₦1,020,000</p>
+                <img src="holexpicture/iphone_15_pink_yellow_blue_black.jpg" alt="iPhone 15 128GB - Pink, Yellow, Blue & Black">
+                <button onclick="addToCart('iPhone 15 128GB', 1020000)">Add to Cart</button>
+            </div>
+            
+            <div class="product" data-name="Apple Power Beats Pro" data-price="220000">
+                <h2>Apple Power Beats Pro</h2>
+                <p class="price">₦220,000</p>
+                <img src="holexpicture/apple_power_beats_pro.jpg" alt="Apple Power Beats Pro">
+                <button onclick="addToCart('Apple Power Beats Pro', 220000)">Add to Cart</button>
+            </div>
+            
+            <div class="product" data-name="iPhone 11 64GB" data-price="310000">
+                <h2>iPhone 11 64GB</h2>
+                <p class="price">₦310,000</p>
+                <img src="holexpicture/iphone_11_black_red.jpg" alt="iPhone 11 64GB - Black & Red">
+                <button onclick="addToCart('iPhone 11 64GB', 310000)">Add to Cart</button>
+            </div>
+            
+            <div class="product" data-name="iPhone 11 Pro Max 64GB" data-price="450000">
+                <h2>iPhone 11 Pro Max 64GB</h2>
+                <p class="price">₦450,000</p>
+                <img src="holexpicture/iphone_11_pro_max.jpg" alt="iPhone 11 Pro Max 64GB">
+                <button onclick="addToCart('iPhone 11 Pro Max 64GB', 450000)">Add to Cart</button>
+            </div>
+            
+        
+
+            <div class="product" data-name="Laptop" data-price="80000">
+                <h2>Laptop</h2>
+                <p class="price">₦80,000</p>
+                <img src="laptop.jpg" alt="Laptop Image">
+                <button onclick="addToCart('Laptop', 80000)">Add to Cart</button>
+            </div>
+            
+            <!-- Add more products as needed -->
+
+            <div class="product" data-name="Headphones" data-price="20000">
+                <h2>Wireless Headphones</h2>
+                <p class="price">₦20,000</p>
+                <img src="headphones.jpg" alt="Headphones Image">
+                <button onclick="addToCart('Wireless Headphones', 20000)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Tablet" data-price="60000">
+                <h2>Tablet</h2>
+                <p class="price">₦60,000</p>
+                <img src="tablet.jpg" alt="Tablet Image">
+                <button onclick="addToCart('Tablet', 60000)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Laptop" data-price="80000">
+                <h2>Laptop</h2>
+                <p class="price">₦80,000</p>
+                <button onclick="addToCart('Laptop', 80000)">Add to Cart</button>
+            </div>
+        </section>
+
+       
+
+    </main>
+    <div id="modal-container">
+        <!-- Other modals and content -->
+    
+        <!-- Cart modal content -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeCartModal()">X</span>
+                <h2>Your Cart</h2>
+                <div id="cart-content"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- Common footer content or links to social media -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

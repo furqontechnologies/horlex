@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Horlex Technologies</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+
+        <header>
+            <h1>Horlex Technologies</h1>
+            <p>Your Technology Solutions Partner</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+            <button id="notification-bar" onclick="viewCart()">
+                <p id="cart-notification"></p>
+            </button>
+            <button id="checkout-btn" onclick="checkout()">Checkout</button>
+        </header>
+        <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Horlex Technologies! We are a leading technology company committed to providing innovative solutions to our clients. Our team of experts is dedicated to delivering high-quality products and services tailored to meet your technology needs.</p>
+            <p>At Horlex Technologies, we believe in the power of technology to transform businesses and enhance lives. Explore our website to discover cutting-edge gadgets, reliable services, and the latest in technological advancements.</p>
+        </section>
+
+        <!-- Add more sections or content as needed -->
+
+        <!-- Right Footer -->
+        <footer class="right-footer">
+            <!-- Footer content -->
+        </footer>
+
+    </main>
+
+    
+
+    <div id="modal-container">
+        <!-- Other modals and content -->
+
+        <!-- Cart modal content -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeCartModal()">X</span>
+                <h2>Your Cart</h2>
+                <div id="cart-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holex Technologies</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  
+
+    
+    
+
+        <header>
+           <img class="logo" src="holexpicture/holexlogo.jpg" alt="Holex Technologies Logo"> 
+            
+
+            <h1>Horlex Technologies</h1>
+                <p>Your Technology Solutions Partner</p>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                 
+                </nav>
+                <button id="notification-bar" onclick="viewCart()">
+                           
+                    <p id="cart-notification"></p>
+                </button>
+                  <button id="checkout-btn" onclick="checkout()">checkout</button>
+          
+     
+
+            
+        </header>
+    <main>
+        <section id="featured-products" class="product">
+            <h2>Featured products <div class="fire">&#128293;</div></h2>
+
+<!-- HTML structure for the slideshow -->
+  <!-- Add this inside the body of your HTML -->
+           <div id="featured-image">
+           <img id="featured-img-tag" alt="Featured Product Image">
+          </div>
+            <div id="featured-list" class="service-list">
+                <!-- Featured services dynamically displayed here -->
+            </div>
+        </section>
+
+        <section id="other-products" class="product">
+            <h2>Explore Our Diverse Products<div class="gadget-icon">&#128242;</div>
+            </h2>
+            <div id="other-list" class="service-list">
+                <!-- Other services dynamically displayed here -->
+            </div>
+        </section>
+
+    </main>
+        <!-- Right Footer -->
+        <footer class="right-footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555238952439&mibextid=ZbWKwL" target="_blank"><img src="holexpicture/facebooklogo.jpg" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="holexpicture/twitter logo.jpg" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="holexpicture/instagram logo.jpg" alt="Instagram"></a>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </footer>
+
+    
+
+    
+
+    <div id="modal-container">
+        <!-- Other modals and content -->
+    
+        <!-- Cart modal content -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeCartModal()">X</span>
+                <h2>Your Cart</h2>
+                <div id="cart-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
