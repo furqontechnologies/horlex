@@ -1,0 +1,96 @@
+
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-color:rgb(192, 192, 192) ;
+    margin-top: 200px;}
+
+
+   aside {
+    width: 100%; /* Updated width to take the full width of the page */
+    background-color: rgb(70, 34, 123);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the position */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    z-index: 1; /* Ensure the sidebar is above the main content */
+}
+
+/* Your existing styles for ul, li, a, etc. */
+
+main {
+    flex: 1;
+    padding: 20px;
+    /* Adjust the margin to make space for the sidebar */
+}
+
+/* Your existing styles for body, header, section, product-list, product, etc. */
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    aside {
+        width: 100%; /* Ensure the sidebar takes full width on smaller screens */
+    }
+    main {
+        margin-left: 0; /* Remove the margin on smaller screens */
+    }
+}
+
+
+
+ul {list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00; /* Change the color on hover as needed */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+header, section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: rgb(70, 34, 123) ;
+    text-align: center;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-color:rgb(192, 192, 192) ;
+
+}
+
+.developer-contact {
+    margin-top: 150px ;
+    color:  rgb(70, 34, 123) 
+    
+}
+.contact-a {
+    color:  rgb(70, 34, 123) 
+}

@@ -1,0 +1,49 @@
+p {
+    font-family: Roboto;
+    margin-top: 0px;
+  }
+
+.video-tittle {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 0px;}
+
+ .video-stats {
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+  font-size: 14px;}
+
+ .video-author {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin-bottom: 20px;}
+
+
+ .video-description {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  width: 280px;
+  line-height: 20px;
+margin-bottom: 100px}
+
+  .video-details {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  background-color:rgb(227, 65, 64);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-weight: bold;
+  
+
+  }
+  .shop-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .shop-link {
+    margin-left: 2px;
+
+  }

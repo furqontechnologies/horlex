@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.completed {
+    background-color: #e0e0e0;
+    color: #777; /* Change completed task text color */
+}
+
+#settings {
+    margin-top: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode #app input,
+.dark-mode #app button,
+.dark-mode #settings label,
+.dark-mode #settings input {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+.dark-mode li.completed {
+    background-color: #555;
+    color: #aaa;
+}
+/* ... (previous styles) ... */
+
+#history {
+    margin-top: 20px;
+}
+
+#history h2 {
+    text-align: center;
+}
+

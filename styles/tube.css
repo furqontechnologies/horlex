@@ -1,0 +1,36 @@
+
+.thumbnails {
+width: 100%;
+}
+
+.channel-picture {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.video-details {
+width: 245px;
+margin-left: 10px;
+
+
+}
+
+
+.thumbnails-div {
+    
+    margin-bottom: 20px;
+    
+
+}
+
+.all-grid { display: grid;
+     grid-template-columns: 1fr 1fr 1fr; 
+     column-gap: 20px; 
+     row-gap: 20px;
+    
+}
+
+.channel-details {
+    display: grid;
+     grid-template-columns: 50px 1fr;
+}

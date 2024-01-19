@@ -1,0 +1,261 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding-top: 0;
+  
+}
+
+
+.grid {
+display: flex;
+justify-content: space-around;
+
+}
+
+.logo {
+  width: 50px;
+}
+
+#featured-products {
+  text-align: center;
+}
+
+#featured-img-tag {
+  max-width: 600px; /* Ensure the image doesn't exceed its container width */
+  width: 300px;
+  height: 400px;   /* Maintain the image's aspect ratio */
+  border: 1px solid rgb(16, 103, 48); /* Optional: Add a border for aesthetics */
+  margin-bottom: 20px;
+}
+
+.fire {
+  font-size: 1em;
+  animation: flicker 3s infinite;
+  display: inline-block;
+}
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+header {
+  background-color: rgb(16, 103, 48);
+  color: white;
+  text-align: center;
+  
+  padding: 1em;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(16, 103, 48);
+
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(16, 103, 48);
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700; /* Change to your desired hover color */
+}
+
+main {
+  padding: 20px;
+  border-radius: 20px;
+  border-radius: 10px;
+  border-color: rgb(16, 103, 48);
+  
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.product img {
+  max-width: 200px;
+  height: auto;
+  cursor: pointer;
+}
+
+
+
+.product-details p {
+   
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  
+}
+
+
+
+
+button {
+  background-color: rgb(16, 103, 48);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#cart-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  border-color: yellowgreen;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+#cart-modal-content {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-modal-content li {
+  margin-bottom: 10px;
+}
+
+#cart-modal button {
+  background-color: rgb(16, 103, 48);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cart-modal button:hover {
+  background-color: #228B22; /* Change to your desired hover color */
+}
+
+#checkout {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#checkout:hover {
+  background-color: #555;
+}
+
+footer {
+  padding: 1em;
+  background-color: rgb(16, 103, 48);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border-color: rgb(16, 103, 48);
+}
+
+
+
+/* Add these styles to your existing CSS file */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add space between social icons and the newsletter section */
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);/* Increase size on hover */
+}
+
+.social-icons img {
+  width: 40px; /* Set a fixed width for the social icons */
+  height: 40px; /* Set a fixed height for the social icons */
+  border-radius: 50%; /* Make the social icons circular */
+  border-color: rgb(16, 103, 48);
+}
+
+/* Add these styles to your existing CSS file */
+
+.read-more {
+  display: inline-block;
+  color: rgb(16, 103, 48); /* Set the color to a suitable link color */
+  margin-top: 8px; /* Adjust spacing between content and "Read More" link */
+  cursor: pointer;
+}
+
+.read-more:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+/* Add this to your style.css file */
+
+.additional-content {
+  display: none;
+}
+
+
+.show {
+  display: block;
+}
+
+
+
+.additional-content.visible {
+  display: block;
+}
+
+
