@@ -6,11 +6,6 @@ body {
 }
 
 
-.grid {
-display: flex;
-justify-content: space-around;
-
-}
 
 .logo {
   width: 50px;
@@ -50,7 +45,6 @@ header {
   background-color: rgb(16, 103, 48);
   color: white;
   text-align: center;
-  
   padding: 1em;
   padding: 5px;
   border-radius: 10px;
@@ -106,7 +100,7 @@ main {
 
 
 .product img {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
   cursor: pointer;
 }
